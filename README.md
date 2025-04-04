@@ -23,7 +23,7 @@ In RITsec CTF 2024 I was able to blood [playoff-rondo's](https://github.com/this
 
 ---
 
-- (Added treat - had to do this in the CTF) Manually resolving got entries
+- (Added treat - had to do this in the CTF) Resolving got entries
 	1) Rebase in binja
 	2) Click through till you see the address its pointing to
 	3) Telescope the address in gdb -> xinfo the pointer its pointing
