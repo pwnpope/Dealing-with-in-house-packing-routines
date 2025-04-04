@@ -23,9 +23,9 @@ In RITsec CTF 2024 I was able to blood [playoff-rondo's](https://github.com/this
 
 ---
 
-- manually resolving got entries
-	- rebase in binja
-	- click through till you see the address its pointing to
-	- telescope the address in gdb -> xinfo the pointer its pointing
-	- grab the offset from libc and search for that offset in libc in binja
-		- and then you will figure out what function it is
+- (Added treat - had to do this in the CTF) Manually resolving got entries
+	1) Rebase in binja
+	2) Click through till you see the address its pointing to
+	3) Telescope the address in gdb -> xinfo the pointer its pointing
+	4) Grab the offset from libc and search for that offset in libc in binja
+		- Then you will figure out what function it is :)
